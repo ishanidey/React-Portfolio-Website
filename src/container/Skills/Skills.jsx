@@ -24,7 +24,6 @@ const Skills = () => (
           </div>
           <p className="p-text">skill name</p>
         </motion.div>
-        ))
       </motion.div>
       <div className="app__skills-exp">
         <motion.div
@@ -44,10 +43,8 @@ const Skills = () => (
                 <p className="p-text">work company</p>
               </motion.div>
             </>
-            ))
           </motion.div>
         </motion.div>
-        ))
       </div>
     </div>
   </>

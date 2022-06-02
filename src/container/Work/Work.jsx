@@ -67,7 +67,7 @@ const Work = () => {
                   <AiFillEye />
                 </motion.div>
               </a>
-              <a href="ishanidey@github.com" target="_blank" rel="noreferrer">
+              <a href="https://github.com/new" target="_blank" rel="noreferrer">
                 <motion.div
                   whileInView={{ scale: [0, 1] }}
                   whileHover={{ scale: [1, 0.90] }}
@@ -89,7 +89,6 @@ const Work = () => {
             </div>
           </div>
         </div>
-        ))
       </motion.div>
     </>
   );
