@@ -5,8 +5,8 @@
 }
 
 .app__skills-container {
-  width: 80%;
-  margin-top: 3rem;
+  width: 100%;
+  margin-top: 1rem;
 
   display: flex;
   flex-direction: row;
@@ -24,7 +24,7 @@
   justify-content: flex-start;
   align-items: flex-start;
 
-  margin-right: 5rem;
+  margin-right: 1rem;
 
   @media screen and (max-width: 900px) {
     margin-right: 0;
@@ -45,7 +45,7 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: #fef4f5;
+    background-color: black;
 
     img {
       width: 50%;
@@ -68,8 +68,8 @@
   }
 
   p {
-    font-weight: 500;
-    margin-top: 0.5rem;
+    font-weight: 1000;
+    margin-top: 0.1rem;
   }
 
   @media screen and (min-width: 2000px) {
@@ -154,4 +154,8 @@
     max-width: 500px !important;
     line-height: 2 !important;
   }
+}
+
+#skills{
+  background-color: palegreen;
 }

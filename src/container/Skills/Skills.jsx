@@ -4,6 +4,7 @@ import { green } from '@material-ui/core/colors';
 import { AppWrap, MotionWrap } from '../../wrapper';
 
 import './Skills.scss';
+import { images } from '../../constants';
 
 const Skills = () => (
   <>
@@ -20,9 +21,85 @@ const Skills = () => (
             className="app__flex"
             style={{ backgroundColor: green }}
           >
-            <img src="" alt="" />
+            <img src={images.react} alt="" />
           </div>
-          <p className="p-text">skill name</p>
+          <p className="p-text">React</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+            style={{ backgroundColor: green }}
+          >
+            <img src={images.vscode} alt="" />
+          </div>
+          <p className="p-text">VS Code</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+            style={{ backgroundColor: green }}
+          >
+            <img src={images.node} alt="" />
+          </div>
+          <p className="p-text">NodeJs</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+            style={{ backgroundColor: green }}
+          >
+            <img src={images.cpp} alt="" />
+          </div>
+          <p className="p-text">C++</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+            style={{ backgroundColor: green }}
+          >
+            <img src={images.javascript} alt="" />
+
+          </div>
+          <p className="p-text">JavaScript</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+            style={{ backgroundColor: green }}
+          >
+            <img src={images.git} alt="" />
+          </div>
+          <p className="p-text">git</p>
         </motion.div>
       </motion.div>
       <div className="app__skills-exp">
@@ -30,7 +107,7 @@ const Skills = () => (
           className="app__skills-exp-item"
         >
           <div className="app__skills-exp-year">
-            <p className="bold-text">experience year</p>
+            <p className="bold-text">2020-2022</p>
           </div>
           <motion.div className="app__skills-exp-works">
             <>
@@ -39,8 +116,110 @@ const Skills = () => (
                 transition={{ duration: 0.5 }}
                 className="app__skills-exp-work"
               >
-                <h4 className="bold-text">work name</h4>
-                <p className="p-text">work company</p>
+                <h4 className="bold-text">Associate and Core Team Member of the Web Team</h4>
+                <p className="p-text">Alma Fiesta</p>
+              </motion.div>
+            </>
+          </motion.div>
+        </motion.div>
+      </div>
+    </div>
+    <div className="app__skills-container">
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+            style={{ backgroundColor: green }}
+          >
+            <img src={images.mongodb} alt="" />
+
+          </div>
+          <p className="p-text">mongoDB</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+            style={{ backgroundColor: green }}
+          >
+            <img src={images.htmlcss} alt="" />
+          </div>
+          <p className="p-text">HTML and CSS</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+            style={{ backgroundColor: green }}
+          >
+            <img src={images.dsa} alt="" />
+
+          </div>
+          <p className="p-text">Data Structures and Algorithms</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+            style={{ backgroundColor: green }}
+          >
+            <img src={images.python} alt="" />
+
+          </div>
+          <p className="p-text">Python</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+            style={{ backgroundColor: green }}
+          >
+            <img src={images.c} alt="" />
+
+          </div>
+          <p className="p-text">C</p>
+        </motion.div>
+      </motion.div>
+      <div className="app__skills-exp">
+        <motion.div
+          className="app__skills-exp-item"
+        >
+          <div className="app__skills-exp-year">
+            <p className="bold-text">2020-Present</p>
+          </div>
+          <motion.div className="app__skills-exp-works">
+            <>
+              <motion.div
+                whileInView={{ opacity: [0, 1] }}
+                transition={{ duration: 0.5 }}
+                className="app__skills-exp-work"
+              >
+                <h4 className="bold-text">Developer and Member</h4>
+                <p className="p-text">Web and Design Society of IIT Bhubaneswar</p>
               </motion.div>
             </>
           </motion.div>

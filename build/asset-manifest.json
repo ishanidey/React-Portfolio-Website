@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ce47a49.css",
-    "main.js": "/static/js/main.6c751382.js",
+    "main.css": "/static/css/main.4fdb2f96.css",
+    "main.js": "/static/js/main.c9503471.js",
+    "static/media/bg.jpg": "/static/media/bg.695e6576103e0f48e480.jpg",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/static/media/about01.080509de05322b7aafda.png",
-    "static/media/bgIMG.png": "/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/bgWhite.png": "/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/about03.png": "/static/media/about03.c26c2547bb1a423cf283.png",
     "static/media/spotify.png": "/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
     "static/media/nb.png": "/static/media/nb.98f3253e32cc67a4cb5e.png",
     "static/media/profile.png": "/static/media/profile.b39f8ccc0f5ca07d5190.png",
+    "static/media/arduino.png": "/static/media/arduino.fa2dbfad4c3f3f310286.png",
     "static/media/adidas.png": "/static/media/adidas.83df8153294f9137d308.png",
+    "static/media/c.png": "/static/media/c.bf0af88d24cd724c83bc.png",
     "static/media/bolt.png": "/static/media/bolt.64e7d9d30ece478ef3a0.png",
     "static/media/redux.png": "/static/media/redux.c9be37e0fece29c624b0.png",
+    "static/media/dsa.png": "/static/media/dsa.391e79ba2240abd8f201.png",
+    "static/media/htmlcss.png": "/static/media/htmlcss.fdd549b973755aa0351e.png",
     "static/media/sass.png": "/static/media/sass.36e863bfbcb25c109d00.png",
     "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/cpp.png": "/static/media/cpp.9002a804bbfa0354d0b8.png",
+    "static/media/vscode.png": "/static/media/vscode.108e5f443bb6cea0e86f.png",
     "static/media/graphql.png": "/static/media/graphql.0372057049181c5de51a.png",
+    "static/media/mongodb.png": "/static/media/mongodb.7fa5a27fdebca7f75f3a.png",
     "static/media/amazon.png": "/static/media/amazon.0a8be1f53138b5c52456.png",
     "static/media/mobile.png": "/static/media/mobile.145d9ce0157a56f8fcd8.png",
     "static/media/email.png": "/static/media/email.37b9e890eea501421fbf.png",
@@ -27,11 +33,11 @@
     "static/media/skype.png": "/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.3ce47a49.css.map": "/static/css/main.3ce47a49.css.map",
-    "main.6c751382.js.map": "/static/js/main.6c751382.js.map"
+    "main.4fdb2f96.css.map": "/static/css/main.4fdb2f96.css.map",
+    "main.c9503471.js.map": "/static/js/main.c9503471.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ce47a49.css",
-    "static/js/main.6c751382.js"
+    "static/css/main.4fdb2f96.css",
+    "static/js/main.c9503471.js"
   ]
 }
