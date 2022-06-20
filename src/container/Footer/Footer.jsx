@@ -20,7 +20,7 @@ const Footer = () => (
       </div>
       <div className="app__footer-card">
         <img src={images.linkedin} alt="linkedin" />
-        <a href="www.linkedin.com/in/ishani-dey-11b9b7213" className="p-text">www.linkedin.com/in/ishani-dey-11b9b7213</a>
+        <a href="https://www.linkedin.com/in/ishani-dey-11b9b7213/" className="p-text">View My LinkedIn Profile</a>
       </div>
       <div className="app__footer-card">
         <img src={images.github} alt="linkedin" />

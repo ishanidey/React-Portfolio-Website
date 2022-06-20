@@ -16,10 +16,12 @@ const Header = () => (
       <div className="app__header-badge">
         <div className="badge-cmp app__flex">
           <div style={{ marginLeft: 20 }}>
-            <p className="text">Hello, myself</p>
-            <p>And I am a Programmer</p>
-            <p>And I am a Web Developer</p>
-            <p>To know more scroll down...</p>
+            <p>Hi there, 👋 my name is</p>
+            <p className="text">Ishani Dey</p>
+            <p>I am a student who has been working with web technologies </p>
+            <p>building both frontend and backend parts, a C++ prorammer </p>
+            <p>currently a fourth sem student at IIT Bhubaneswar </p>
+            <p>and someone who is always in hunt of learning more and more</p>
           </div>
         </div>
       </div>
