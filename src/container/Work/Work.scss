@@ -19,6 +19,7 @@
     background-color: #fff;
     color: #000;
     font-weight: 800;
+  
 
     cursor: pointer;
     transition: all 0.3s ease;
@@ -48,7 +49,7 @@
   align-items: right;
 
   .app__work-item {
-    width: 270px;
+    width: 1000px;
     flex-direction: row;
 
     margin: 2rem;
@@ -156,5 +157,5 @@
 }
 
 #work{
-  background-color: yellowgreen;
+  background-color: gainsboro;
 }

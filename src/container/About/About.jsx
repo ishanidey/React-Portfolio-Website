@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
-import { images } from '../../constants';
+// import { images } from '../../constants';
 
 // import motion from 'framer-motion';
 import './About.scss';
@@ -14,9 +14,6 @@ const About = () => (
     >
 
       <div className="w3-row w3-padding-64" id="about">
-        <div className="w3-col m6 w3-padding-large w3-hide-small">
-          <img src={images.about01} className="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750" />
-        </div>
         <div className="heading">
           <p>My name is Ishani. A student of IIT Bhubaneswar, currently pursuing 4th semester in BTECH of electronics and communication department.
           </p>
