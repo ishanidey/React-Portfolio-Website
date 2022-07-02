@@ -7,9 +7,9 @@ import './Footer.scss';
 
 const Footer = () => (
   <>
-    <h2 className="head-text">Contact me</h2>
+    <h2 className="head-text font">Contact me</h2>
 
-    <div className="app__footer-cards">
+    <div className="app__footer-cards font">
       <div className="app__footer-card ">
         <img src={images.email} alt="email" />
         <a href="mailto:20ec01038@iitbbs.ac.in" className="p-text">20ec01038@iitbbs.ac.in</a>
@@ -24,7 +24,7 @@ const Footer = () => (
       </div>
       <div className="app__footer-card">
         <img src={images.github} alt="linkedin" />
-        <a href="https://github.com/ishanidey" className="p-text">https://github.com/ishanidey</a>
+        <a href="https://github.com/ishanidey" className="p-text">My GitHub Profile</a>
       </div>
     </div>
   </>

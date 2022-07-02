@@ -18,7 +18,7 @@
 }
 
 .app__skills-list {
-  flex: 1;
+  flex:auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -50,10 +50,6 @@
     img {
       width: 50%;
       height: 50%;
-    }
-
-    &:hover {
-      box-shadow: 0 0 25px #fef4f5;
     }
 
     @media screen and (min-width: 2000px) {
@@ -130,7 +126,7 @@
 
   p {
     font-weight: 800;
-    color: var(--secondary-color);
+    color: Black;
   }
 
   @media screen and (max-width: 450px) {
@@ -158,4 +154,8 @@
 
 #skills{
   background-color: palegreen;
+}
+
+.footer{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

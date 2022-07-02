@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { green } from '@material-ui/core/colors';
 import { AppWrap, MotionWrap } from '../../wrapper';
 
 import './Skills.scss';
@@ -8,9 +7,9 @@ import { images } from '../../constants';
 
 const Skills = () => (
   <>
-    <h2 className="head-text">Skills & Experiences</h2>
+    <h2 className="head-text font">Skills & Experiences</h2>
 
-    <div className="app__skills-container">
+    <div className="app__skills-container font">
       <motion.div className="app__skills-list">
         <motion.div
           whileInView={{ opacity: [0, 1] }}
@@ -19,7 +18,6 @@ const Skills = () => (
         >
           <div
             className="app__flex"
-            style={{ backgroundColor: green }}
           >
             <img src={images.react} alt="" />
           </div>
@@ -34,7 +32,7 @@ const Skills = () => (
         >
           <div
             className="app__flex"
-            style={{ backgroundColor: green }}
+
           >
             <img src={images.vscode} alt="" />
           </div>
@@ -49,7 +47,6 @@ const Skills = () => (
         >
           <div
             className="app__flex"
-            style={{ backgroundColor: green }}
           >
             <img src={images.node} alt="" />
           </div>
@@ -64,7 +61,6 @@ const Skills = () => (
         >
           <div
             className="app__flex"
-            style={{ backgroundColor: green }}
           >
             <img src={images.cpp} alt="" />
           </div>
@@ -79,7 +75,7 @@ const Skills = () => (
         >
           <div
             className="app__flex"
-            style={{ backgroundColor: green }}
+
           >
             <img src={images.javascript} alt="" />
 
@@ -95,7 +91,6 @@ const Skills = () => (
         >
           <div
             className="app__flex"
-            style={{ backgroundColor: green }}
           >
             <img src={images.git} alt="" />
           </div>
@@ -124,7 +119,7 @@ const Skills = () => (
         </motion.div>
       </div>
     </div>
-    <div className="app__skills-container">
+    <div className="app__skills-container font">
       <motion.div className="app__skills-list">
         <motion.div
           whileInView={{ opacity: [0, 1] }}
@@ -133,7 +128,7 @@ const Skills = () => (
         >
           <div
             className="app__flex"
-            style={{ backgroundColor: green }}
+
           >
             <img src={images.mongodb} alt="" />
 
@@ -149,7 +144,7 @@ const Skills = () => (
         >
           <div
             className="app__flex"
-            style={{ backgroundColor: green }}
+
           >
             <img src={images.htmlcss} alt="" />
           </div>
@@ -164,7 +159,7 @@ const Skills = () => (
         >
           <div
             className="app__flex"
-            style={{ backgroundColor: green }}
+
           >
             <img src={images.dsa} alt="" />
 
@@ -180,7 +175,7 @@ const Skills = () => (
         >
           <div
             className="app__flex"
-            style={{ backgroundColor: green }}
+
           >
             <img src={images.python} alt="" />
 
@@ -196,7 +191,7 @@ const Skills = () => (
         >
           <div
             className="app__flex"
-            style={{ backgroundColor: green }}
+
           >
             <img src={images.c} alt="" />
 

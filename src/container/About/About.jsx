@@ -1,19 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
-// import { images } from '../../constants';
 
-// import motion from 'framer-motion';
 import './About.scss';
 
 const About = () => (
   <>
-    <h2 className="head-text">About <span>Me</span></h2>
+    <h2 className="head-text">About Me</h2>
     <motion.div
       transition={{ duration: 1, type: 'tween' }}
     >
 
-      <div className="w3-row w3-padding-64" id="about">
+      <div className="font" id="about">
         <div className="heading">
           <p>My name is Ishani. A student of IIT Bhubaneswar, currently pursuing 4th semester in BTECH of electronics and communication department.
           </p>

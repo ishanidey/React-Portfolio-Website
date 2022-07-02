@@ -1,17 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Gentium+Plus:ital@1&family=Press+Start+2P&family=Saira+Stencil+One&display=swap');
-// .app__about {
-//   flex: 1;
-//   width: 100%;
-//   flex-direction: column;
-// }
 
-// .app__profiles {
-//   display: flex;
-//   justify-content: center;
-//   align-items: flex-start;
-//   flex-wrap: wrap;
-//   margin-top: 2rem;
-// }
 .heading{
   color:black;
   font-size: large;
@@ -20,30 +8,5 @@
   background-color: gainsboro;
 }
 .font{
-  font-family:'Gentium Plus';
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
-// .app__profile-item {
-//   width: 190px;
-//   display: flex;
-//   justify-content: flex-start;
-//   align-items: flex-start;
-//   flex-direction: column;
-//   margin: 2rem;
-
-//   img {
-//     width: 100%;
-//     height: 100%;
-//     border-radius: 15px;
-//     object-fit: cover;
-//   }
-
-//   @media screen and (min-width: 2000px) {
-//     width: 370px;
-//     margin: 2rem 4rem;
-
-//     img {
-//       height: 320px;
-//     }
-//   }
-// }

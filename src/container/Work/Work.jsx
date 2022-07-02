@@ -7,7 +7,7 @@ import './Work.scss';
 
 const Work = () => (
   <>
-    <h2 className="head-text">Things I have <span>Built</span></h2>
+    <h2 className="head-text font">Things I have <span>Built</span></h2>
 
     <motion.div
       transition={{ duration: 0.5, delayChildren: 0.5 }}
