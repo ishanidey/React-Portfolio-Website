@@ -66,7 +66,7 @@ const Work = () => (
         <div
           className="app__work-img app__flex"
         >
-          <img src={images.nursery} alt="" />
+          <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRN3UbEpJT0nxGfYz0nfc1N0Qekf-i8LLJ0YHkZAeBMhU0USJzG" alt="" />
 
           <motion.div
             whileHover={{ opacity: [0, 1] }}
@@ -115,7 +115,7 @@ const Work = () => (
         <div
           className="app__work-img app__flex"
         >
-          <img src="https://agriculturistmusa.com/wp-content/uploads/2018/11/Nursery-Management-Practices.jpg" alt="" />
+          <img src={images.arduino} alt="" />
 
           <motion.div
             whileHover={{ opacity: [0, 1] }}
