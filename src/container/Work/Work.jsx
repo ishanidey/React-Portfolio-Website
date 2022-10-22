@@ -66,6 +66,55 @@ const Work = () => (
         <div
           className="app__work-img app__flex"
         >
+          <img src={images.nursery} alt="" />
+
+          <motion.div
+            whileHover={{ opacity: [0, 1] }}
+            transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
+            className="app__work-hover app__flex"
+          >
+            <a href="ishanidey@github.com" target="_blank" rel="noreferrer">
+
+              <motion.div
+                whileInView={{ scale: [0, 1] }}
+                whileHover={{ scale: [1, 0.90] }}
+                transition={{ duration: 0.25 }}
+                className="app__flex"
+              >
+                <AiFillEye />
+              </motion.div>
+            </a>
+            <a href="https://github.com/ishanidey/the-green-balcony" target="_blank" rel="noreferrer">
+              <motion.div
+                whileInView={{ scale: [0, 1] }}
+                whileHover={{ scale: [1, 0.90] }}
+                transition={{ duration: 0.25 }}
+                className="app__flex"
+              >
+                <AiFillGithub />
+              </motion.div>
+            </a>
+          </motion.div>
+        </div>
+
+        <div className="app__work-content app__flex">
+          <h4 className="bold-text">MERN STACK </h4>
+          <p className="p-text" style={{ marginTop: 10 }}> A management system for a nursery.</p>
+
+          <div className="app__work-tag app__flex">
+            <p className="p-text">Hover to view code</p>
+          </div>
+        </div>
+      </div>
+    </motion.div>
+    <motion.div
+      transition={{ duration: 0.5, delayChildren: 0.5 }}
+      className="app__work-portfolio"
+    >
+      <div className="app__work-item app__flex">
+        <div
+          className="app__work-img app__flex"
+        >
           <img src={images.arduino} alt="" />
 
           <motion.div
