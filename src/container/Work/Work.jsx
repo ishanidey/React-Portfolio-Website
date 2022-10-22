@@ -115,7 +115,7 @@ const Work = () => (
         <div
           className="app__work-img app__flex"
         >
-          <img src={images.arduino} alt="" />
+          <img src="https://agriculturistmusa.com/wp-content/uploads/2018/11/Nursery-Management-Practices.jpg" alt="" />
 
           <motion.div
             whileHover={{ opacity: [0, 1] }}

@@ -16,6 +16,7 @@ import logo from '../assets/logo.png';
 import bg from '../assets/bg.jpg';
 import vscode from '../assets/vscode.png';
 import arduino from '../assets/arduino.png';
+
 import mongodb from '../assets/mongodb.png';
 import dsa from '../assets/dsa.png';
 import c from '../assets/c.png';
