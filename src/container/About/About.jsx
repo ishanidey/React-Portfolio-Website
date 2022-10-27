@@ -15,7 +15,7 @@ const About = () => (
 
       <div className="font" id="about">
         <div className="heading">
-          <p>My name is Ishani. A student of IIT Bhubaneswar, currently pursuing 4th semester in BTECH of electronics and communication department.
+          <p>My name is Ishani. A student of IIT Bhubaneswar, currently pursuing 5th semester in BTECH of electronics and communication department.
           </p>
           <p>Fixing bugs and solving puzzles thrils me the most😀. </p>
         </div>
