@@ -20,7 +20,7 @@ const Header = () => (
             <p className="text">Ishani Dey</p>
             <p>I am a student who has been working with web technologies </p>
             <p>building both frontend and backend parts, a C++ prorammer </p>
-            <p>currently a fourth sem student at IIT Bhubaneswar </p>
+            <p>currently a fifth sem student at IIT Bhubaneswar </p>
             <p>and someone who is always in hunt of learning more and more</p>
           </div>
         </div>

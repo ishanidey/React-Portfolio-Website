@@ -66,7 +66,7 @@ const Work = () => (
         <div
           className="app__work-img app__flex"
         >
-          <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRN3UbEpJT0nxGfYz0nfc1N0Qekf-i8LLJ0YHkZAeBMhU0USJzG" alt="" />
+          <img src={images.bg} alt="" />
 
           <motion.div
             whileHover={{ opacity: [0, 1] }}

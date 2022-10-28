@@ -4,6 +4,7 @@ import mobile from '../assets/mobile.png';
 import cpp from '../assets/cpp.png';
 import css from '../assets/css.png';
 import git from '../assets/git.png';
+import ishani from '../assets/ISHANI_DEY.pdf';
 import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
 import node from '../assets/node.png';
@@ -34,6 +35,7 @@ export default {
   mobile,
   restapi,
   cpp,
+  ishani,
   css,
   git,
   crud,
