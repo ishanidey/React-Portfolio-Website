@@ -221,6 +221,154 @@ const Skills = () => (
         </motion.div>
       </div>
     </div>
+    <div className="app__skills-container font">
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+          >
+            <img src={images.sass} alt="" />
+          </div>
+          <p className="p-text">SASS</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+
+          >
+            <img src={images.ejs} alt="" />
+          </div>
+          <p className="p-text">EJS</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+          >
+            <img src={images.heroku} alt="" />
+          </div>
+          <p className="p-text">Heroku</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+          >
+            <img src={images.mysql} alt="" />
+          </div>
+          <p className="p-text">MySQL</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+
+          >
+            <img src={images.graphql} alt="" />
+
+          </div>
+          <p className="p-text">GraphQL</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+          >
+            <img src={images.nextjs} alt="" />
+          </div>
+          <p className="p-text">NEXT.JS</p>
+        </motion.div>
+      </motion.div>
+    </div>
+    <div className="app__skills-container font">
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+          >
+            <img src={images.express} alt="" />
+          </div>
+          <p className="p-text">express</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+
+          >
+            <img src={images.arduino} alt="" />
+          </div>
+          <p className="p-text">arduino</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+          >
+            <img src={images.matlab} alt="" />
+          </div>
+          <p className="p-text">matlab</p>
+        </motion.div>
+      </motion.div>
+      <motion.div className="app__skills-list">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="app__skills-item app__flex"
+        >
+          <div
+            className="app__flex"
+          >
+            <img src={images.mysql} alt="" />
+          </div>
+          <p className="p-text">MySQL</p>
+        </motion.div>
+      </motion.div>
+    </div>
   </>
 );
 

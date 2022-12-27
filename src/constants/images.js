@@ -17,7 +17,7 @@ import logo from '../assets/logo.png';
 import bg from '../assets/bg.jpg';
 import vscode from '../assets/vscode.png';
 import arduino from '../assets/arduino.png';
-
+import nextjsproject from '../assets/new.PNG';
 import mongodb from '../assets/mongodb.png';
 import dsa from '../assets/dsa.png';
 import c from '../assets/c.png';
@@ -29,6 +29,14 @@ import restapi from '../assets/restapi.png';
 import crud from '../assets/crud.jpg';
 import ai from '../assets/ai.jfif';
 import circle from '../assets/circle.png';
+import nextjs from '../assets/nextjs.png';
+import graphql from '../assets/graphql.png';
+import mysql from '../assets/mysql.png';
+import heroku from '../assets/heroku.jfif';
+import ejs from '../assets/ejs.jpg';
+import sass from '../assets/sass.png';
+import express from '../assets/express.png';
+import matlab from '../assets/matlab.png';
 
 export default {
   email,
@@ -59,6 +67,15 @@ export default {
   mongodb,
   dsa,
   c,
+  matlab,
   bgnavbar,
   blogsite,
+  nextjsproject,
+  nextjs,
+  sass,
+  express,
+  graphql,
+  mysql,
+  heroku,
+  ejs,
 };
