@@ -5,6 +5,11 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import './Skills.scss';
 import { images } from '../../constants';
 
+const workTimeline = [
+  { year: '2020 - Present', company: 'Web and Design Society, IIT Bhubaneswar', position: 'Web developer' },
+  { year: '2020 - 2022', company: 'Alma Fiesta, IIT Bhubaneswar', position: 'Web developer' },
+];
+
 const Skills = () => (
   <>
     <h2 className="head-text font">Skills & Experiences</h2>
@@ -97,27 +102,6 @@ const Skills = () => (
           <p className="p-text">git</p>
         </motion.div>
       </motion.div>
-      <div className="app__skills-exp">
-        <motion.div
-          className="app__skills-exp-item"
-        >
-          <div className="app__skills-exp-year">
-            <p className="bold-text">2020-2022</p>
-          </div>
-          <motion.div className="app__skills-exp-works">
-            <>
-              <motion.div
-                whileInView={{ opacity: [0, 1] }}
-                transition={{ duration: 0.5 }}
-                className="app__skills-exp-work"
-              >
-                <h4 className="bold-text">Associate and Core Team Member of the Web Team</h4>
-                <p className="p-text">Alma Fiesta</p>
-              </motion.div>
-            </>
-          </motion.div>
-        </motion.div>
-      </div>
     </div>
     <div className="app__skills-container font">
       <motion.div className="app__skills-list">
@@ -164,7 +148,7 @@ const Skills = () => (
             <img src={images.dsa} alt="" />
 
           </div>
-          <p className="p-text">Data Structures and Algorithms</p>
+          <p className="p-text">DSA</p>
         </motion.div>
       </motion.div>
       <motion.div className="app__skills-list">
@@ -199,27 +183,6 @@ const Skills = () => (
           <p className="p-text">C</p>
         </motion.div>
       </motion.div>
-      <div className="app__skills-exp">
-        <motion.div
-          className="app__skills-exp-item"
-        >
-          <div className="app__skills-exp-year">
-            <p className="bold-text">2020-Present</p>
-          </div>
-          <motion.div className="app__skills-exp-works">
-            <>
-              <motion.div
-                whileInView={{ opacity: [0, 1] }}
-                transition={{ duration: 0.5 }}
-                className="app__skills-exp-work"
-              >
-                <h4 className="bold-text">Developer and Member</h4>
-                <p className="p-text">Web and Design Society of IIT Bhubaneswar</p>
-              </motion.div>
-            </>
-          </motion.div>
-        </motion.div>
-      </div>
     </div>
     <div className="app__skills-container font">
       <motion.div className="app__skills-list">
@@ -368,6 +331,60 @@ const Skills = () => (
           <p className="p-text">MySQL</p>
         </motion.div>
       </motion.div>
+    </div>
+    {/*
+    <div className="app__header app__flex">
+      <motion.div
+        whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+        transition={{ duration: 1 }}
+        className="app__header-info"
+      >
+        <h1 className="heading">ishani</h1>
+        <div className="app__header-badge">
+          <div className="badge-cmp app__flex">
+            <div style={{ marginLeft: 20 }}>
+              <p>Hi there, 👋 my name is</p>
+              <p className="text">Ishani Dey</p>
+              <p>I am a student who has been working with web technologies </p>
+              <p>building both frontend and backend parts, a C++ prorammer </p>
+              <p>currently a fifth sem student at IIT Bhubaneswar </p>
+              <p>and someone who is always in hunt of learning more and more</p>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div
+        whileInView={{ opacity: [0, 1] }}
+        transition={{ duration: 1, delayChildren: 1 }}
+        className="app__header-img"
+      >
+        <img src={images.profile} alt="profile_bg" />
+        <motion.img
+          whileInView={{ scale: [0, 1] }}
+          transition={{ duration: 1, ease: 'easeInOut' }}
+          src={images.circle}
+          alt="profile_circle"
+          className="overlay_circle"
+        />
+      </motion.div>
+    </div>
+*/}
+    <div className="app__skills-container font">
+      <div className="timeline">
+        <h1>Work Timeline</h1>
+        <div className="timeline-container">
+          {workTimeline.map((item, index) => (
+            <div className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`} key={index}>
+              <div className="timeline-year">{item.year}</div>
+              <div className="timeline-content">
+                <h2>{item.position}</h2>
+                <p>{item.company}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   </>
 );

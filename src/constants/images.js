@@ -37,6 +37,8 @@ import ejs from '../assets/ejs.jpg';
 import sass from '../assets/sass.png';
 import express from '../assets/express.png';
 import matlab from '../assets/matlab.png';
+import profile2 from '../assets/profile2.png.png';
+import animation from '../assets/animation.gif';
 
 export default {
   email,
@@ -78,4 +80,6 @@ export default {
   mysql,
   heroku,
   ejs,
+  profile2,
+  animation,
 };
