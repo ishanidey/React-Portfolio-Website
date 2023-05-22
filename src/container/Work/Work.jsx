@@ -50,10 +50,10 @@ const Work = () => (
 
         <div className="app__work-content app__flex">
           <h4 className="bold-text">Web development Blogging site</h4>
-          <p className="p-text" style={{ marginTop: 10 }}>Fullstack application using NEXT.JS AND GraphQL and GraphCMS</p>
+          <p className="h1-text" style={{ marginTop: 10 }}>Fullstack application using NEXT.JS AND GraphQL and GraphCMS</p>
 
           <div className="app__work-tag app__flex">
-            <p className="p-text">Hover to see code</p>
+            <p className="h1-text">Hover to see code</p>
           </div>
         </div>
       </div>
@@ -99,10 +99,10 @@ const Work = () => (
 
         <div className="app__work-content app__flex">
           <h4 className="bold-text">Blogging Site</h4>
-          <p className="p-text" style={{ marginTop: 10 }}>Focused in backend development - CRUD application</p>
+          <p className="h1-text" style={{ marginTop: 10 }}>Focused in backend development - CRUD application</p>
 
           <div className="app__work-tag app__flex">
-            <p className="p-text">Hover to see live and code</p>
+            <p className="h1-text">Hover to see live and code</p>
           </div>
         </div>
       </div>
@@ -148,10 +148,10 @@ const Work = () => (
 
         <div className="app__work-content app__flex">
           <h4 className="bold-text">MERN STACK </h4>
-          <p className="p-text" style={{ marginTop: 10 }}> A management system for a nursery.</p>
+          <p className="h1-text" style={{ marginTop: 10 }}> A management system for a nursery.</p>
 
           <div className="app__work-tag app__flex">
-            <p className="p-text">Hover to view code</p>
+            <p className="h1-text">Hover to view code</p>
           </div>
         </div>
       </div>
@@ -197,10 +197,10 @@ const Work = () => (
 
         <div className="app__work-content app__flex">
           <h4 className="bold-text">Arduino Project</h4>
-          <p className="p-text" style={{ marginTop: 10 }}> Incorporated with hardware to calculate soil moisture.</p>
+          <p className="h1-text" style={{ marginTop: 10 }}> Incorporated with hardware to calculate soil moisture.</p>
 
           <div className="app__work-tag app__flex">
-            <p className="p-text">Hover to view code</p>
+            <p className="h1-text">Hover to view code</p>
           </div>
         </div>
       </div>
@@ -246,10 +246,10 @@ const Work = () => (
 
         <div className="app__work-content app__flex">
           <h4 className="bold-text">React - Movie Website `&quot;CineMania`&quot;` </h4>
-          <p className="p-text" style={{ marginTop: 10 }}>Used ReactJS and OMDB api to fetch data about movies </p>
+          <p className="h1-text" style={{ marginTop: 10 }}>Used ReactJS and OMDB api to fetch data about movies </p>
 
           <div className="app__work-tag app__flex">
-            <p className="p-text">Hover to view code</p>
+            <p className="h1-text">Hover to view code</p>
           </div>
         </div>
       </div>
@@ -295,10 +295,10 @@ const Work = () => (
 
         <div className="app__work-content app__flex">
           <h4 className="bold-text">Social Media REST api </h4>
-          <p className="p-text" style={{ marginTop: 10 }}>Used NodeJS, MongoDB </p>
+          <p className="h1-text" style={{ marginTop: 10 }}>Used NodeJS, MongoDB </p>
 
           <div className="app__work-tag app__flex">
-            <p className="p-text">Hover to view code</p>
+            <p className="h1-text">Hover to view code</p>
           </div>
         </div>
       </div>
@@ -344,10 +344,10 @@ const Work = () => (
 
         <div className="app__work-content app__flex">
           <h4 className="bold-text">REST api for a platform where users can login and store notes </h4>
-          <p className="p-text" style={{ marginTop: 10 }}>Used NodeJS and MongoDB </p>
+          <p className="h1-text" style={{ marginTop: 10 }}>Used NodeJS and MongoDB </p>
 
           <div className="app__work-tag app__flex">
-            <p className="p-text">Hover to view code</p>
+            <p className="h1-text">Hover to view code</p>
           </div>
         </div>
       </div>
@@ -393,10 +393,10 @@ const Work = () => (
 
         <div className="app__work-content app__flex">
           <h4 className="bold-text">Personal Assitant using python</h4>
-          <p className="p-text" style={{ marginTop: 10 }}> Built a program which uses speech recognition to do tasks.</p>
+          <p className="h1-text" style={{ marginTop: 10 }}> Built a program which uses speech recognition to do tasks.</p>
 
           <div className="app__work-tag app__flex">
-            <p className="p-text">Hover to view code</p>
+            <p className="h1-text">Hover to view code</p>
           </div>
         </div>
       </div>
@@ -442,10 +442,10 @@ const Work = () => (
 
         <div className="app__work-content app__flex">
           <h4 className="bold-text"> TEXTtools </h4>
-          <p className="p-text" style={{ marginTop: 10 }}>A react application with some functions to play around with the text.</p>
+          <p className="h1-text" style={{ marginTop: 10 }}>A react application with some functions to play around with the text.</p>
 
           <div className="app__work-tag app__flex">
-            <p className="p-text">Hover to view code</p>
+            <p className="h1-text">Hover to view code</p>
           </div>
         </div>
       </div>

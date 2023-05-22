@@ -13,7 +13,7 @@ import react from '../assets/react.png';
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.jpg';
 import profile from '../assets/profile.png';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.PNG';
 import bg from '../assets/bg.jpg';
 import vscode from '../assets/vscode.png';
 import arduino from '../assets/arduino.png';

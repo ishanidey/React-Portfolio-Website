@@ -23,25 +23,28 @@ const About = () => (
 
       <div className="font" id="about">
         <div className="heading bgimg">
-          <p style={{ marginBottom: '1.5em' }}>My name is Ishani. A student of IIT Bhubaneswar, currently pursuing 5th semester in BTECH of electronics and communication department.
+          <p style={{ marginBottom: '1.5em' }}>My name is Ishani. A student of IIT Bhubaneswar, currently pursuing BTECH in Electronics and Communication department.
           </p>
           <p style={{ marginBottom: '1.5em' }}>
-            Fixing bugs and solving puzzles thrill me the most{' '}
+            Fixing bugs and solving puzzles thrills me the most{' '}
             <span onClick={handleExperienceClick} style={{ cursor: 'pointer', textDecoration: 'underline' }}>
               😄(click me!)
             </span>
             .
           </p>
           <p style={{ marginBottom: '1.5em' }}>
-            My curiosity to know how such magnificent sites are built led me to discover web development{' '}
+            It is through this passion that I stumbled upon web development and became fascinated with the process of creating magnificent websites {' '}
             <span onClick={handleCuriosityClick} style={{ cursor: 'pointer', textDecoration: 'underline' }}>
               😄(click me!)
             </span>
             , and this site is a byproduct of that.
           </p>
-          <p style={{ marginBottom: '1.5em' }}>My curiosity to know how such magnificent sites are built led me to discover web development😄 and this site is a byproduct of that.</p>
+          <p style={{ marginBottom: '1.5em' }}>My curiosity to know how such magnificent sites are built led me to discover web development😄 The site you are currently visiting is a result of my exploration in this field..</p>
           <p style={{ marginBottom: '1.5em' }}>This site is a single page application built with React.</p>
-          <p style={{ marginBottom: '1.5em' }}>A C++ programmer and a wannabe photographer. My target is always to write neat and efficient code.</p>
+          <a href="https://github.com/ishanidey/React-Portfolio-Website">
+            <button type="button" className="button">Go to the repository</button>
+          </a>
+          <p style={{ marginBottom: '1.5em', marginTop: '1.5em' }}>A C++ programmer and a wannabe photographer. My target is always to write neat and efficient code.</p>
           <p style={{ marginBottom: '1.5em' }}>Looking forward to jam with amazing individuals and groups to learn lot more 🙏 </p>
         </div>
       </div>

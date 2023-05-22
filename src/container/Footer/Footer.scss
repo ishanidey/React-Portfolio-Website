@@ -66,10 +66,17 @@
   box-shadow: 0 0 25px #f2f7fb;
 }
 
-#contact{
-  background-color: turquoise;
-}
 
 .footer{
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.gif-container {
+  position: relative;
+  display: inline-block;
+}
+
+.gif-image {
+  width: 200px; /* Adjust the width and height as needed */
+  height: 200px;
 }
