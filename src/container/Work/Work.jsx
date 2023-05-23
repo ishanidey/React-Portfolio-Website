@@ -66,7 +66,7 @@ const Work = () => (
         <div
           className="app__work-img app__flex"
         >
-          <img src={images.blogsite} alt="" />
+          <img src={images.blogsitenew} alt="" />
 
           <motion.div
             whileHover={{ opacity: [0, 1] }}
@@ -84,7 +84,7 @@ const Work = () => (
                 <AiFillEye />
               </motion.div>
             </a>
-            <a href="https://github.com/ishanidey/blog_site" target="_blank" rel="noreferrer">
+            <a href="https://digital-diary-odishatales.onrender.com/blogs" target="_blank" rel="noreferrer">
               <motion.div
                 whileInView={{ scale: [0, 1] }}
                 whileHover={{ scale: [1, 0.90] }}

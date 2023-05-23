@@ -39,6 +39,7 @@ import express from '../assets/express.png';
 import matlab from '../assets/matlab.png';
 import profile2 from '../assets/profile2.png.png';
 import animation from '../assets/animation.gif';
+import blogsitenew from '../assets/blogsite.PNG';
 
 export default {
   email,
@@ -59,6 +60,7 @@ export default {
   profile,
   texttools,
   logo,
+  blogsitenew,
   linkedin,
   cinemania,
   github,
