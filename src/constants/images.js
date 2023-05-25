@@ -17,7 +17,7 @@ import logo from '../assets/logo.PNG';
 import bg from '../assets/bg.jpg';
 import vscode from '../assets/vscode.png';
 import arduino from '../assets/arduino.png';
-import nextjsproject from '../assets/new.PNG';
+import nextjsproject from '../assets/nextjsproject.PNG';
 import mongodb from '../assets/mongodb.png';
 import dsa from '../assets/dsa.png';
 import c from '../assets/c.png';

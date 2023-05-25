@@ -24,7 +24,7 @@ const Work = () => (
             transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
             className="app__work-hover app__flex"
           >
-            <a href=" " target="_blank" rel="noreferrer">
+            <a href="https://ishaniarticles-blogs-website.vercel.app/" target="_blank" rel="noreferrer">
 
               <motion.div
                 whileInView={{ scale: [0, 1] }}
@@ -53,7 +53,7 @@ const Work = () => (
           <p className="h1-text" style={{ marginTop: 10 }}>Fullstack application using NEXT.JS AND GraphQL and GraphCMS</p>
 
           <div className="app__work-tag app__flex">
-            <p className="h1-text">Hover to see code</p>
+            <p className="h1-text">Hover to see code and live site</p>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ const Work = () => (
             transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
             className="app__work-hover app__flex"
           >
-            <a href="https://blog-site-by-ishani.herokuapp.com/blogs" target="_blank" rel="noreferrer">
+            <a href="https://ishaniarticles-blogs-website.vercel.app/" target="_blank" rel="noreferrer">
 
               <motion.div
                 whileInView={{ scale: [0, 1] }}
