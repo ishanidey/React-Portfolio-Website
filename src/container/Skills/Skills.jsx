@@ -9,6 +9,8 @@ const workTimeline = [
   { year: '2021 - Present', company: 'Web and Design Society, IIT Bhubaneswar', position: 'Web developer' },
   { year: '2021 - 2022', company: 'Alma Fiesta, IIT Bhubaneswar', position: 'Web developer' },
   { year: '2023 - Present', company: 'Medium', position: 'Technical Content Writer' },
+  { year: '2023 - Present', company: 'Quadratyx', position: 'Backend Developer Intern' },
+  { year: '2023 - Present', company: 'IIT Bhubaneswar', position: 'Research Intern' },
 ];
 
 const Skills = () => (
