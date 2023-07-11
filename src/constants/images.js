@@ -40,8 +40,40 @@ import matlab from '../assets/matlab.png';
 import profile2 from '../assets/profile2.png.png';
 import animation from '../assets/animation.gif';
 import blogsitenew from '../assets/blogsite.PNG';
+import c1 from '../assets/c1.PNG';
+import c2 from '../assets/c2.PNG';
+import c3 from '../assets/c3.jpg';
+import c4 from '../assets/c4.PNG';
+import webd from '../assets/webd.jpg';
+import alma from '../assets/alma.png';
+import iitbbs from '../assets/iitbbs.png';
+import quadratyx from '../assets/quadratyx.png';
+import medium from '../assets/medium.png';
+import codefirstgirls from '../assets/codefirstgirls.png';
+import girlsintech from '../assets/girlsintech.jpg';
+import wwcp from '../assets/wwcp.jpeg';
+import geekgoddess from '../assets/geekgoddess.PNG';
+import docker from '../assets/docker_udemy.PNG';
+import ts from '../assets/ts.png';
+import shecodes from '../assets/SheCodes.png';
 
 export default {
+  shecodes,
+  ts,
+  docker,
+  geekgoddess,
+  wwcp,
+  girlsintech,
+  codefirstgirls,
+  medium,
+  quadratyx,
+  iitbbs,
+  alma,
+  webd,
+  c1,
+  c2,
+  c3,
+  c4,
   email,
   mobile,
   restapi,

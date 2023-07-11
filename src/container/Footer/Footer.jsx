@@ -40,15 +40,17 @@ const Footer = () => (
         transition={{ duration: 1 }}
         className="app__about-info"
       >
-        <h1 className="heading">ishani</h1>
         <div className="app__about-badge">
           <div className="badge-cmp app__flex">
             <div style={{ marginLeft: 20 }}>
-              <p className="text">Bit more about me...</p>
+              <p className="text" data-text="Bit more about me...">Bit more about me...</p>
               <p>if you dont mind🤭</p>
-              <p> I was born in Dhekiajuli, Assam. Then i lived in Gujarat, Punjab, Jammu and Kashmir, Haryana, Rajasthan, Orissa and presently in Maharashtra - p.s. only for summer holidays. Will go back to Bhubaneswar or more precisely Jatni to finish my Btech. </p>
-              <p>I am very fond of travelling. Already covered more than one-third of India. Planning to visit each and every corner of world.</p>
-              <p>And, my mother toungue is Bengali. I know Bengali, English and Hindi. Tried to learn Assamese and Telugu but failed miserably.😅</p>
+              <p>I am passionate about web development and have built several projects and also deployed a few of them. I have
+                used technologies such as: Node.js, Express, EJS, MongoDB, React.js, Next.js, GraphQL, TypeScript.
+              </p>
+              <p> I was born in Dhekiajuli, Assam. Then i lived in Gujarat, Punjab, Jammu and Kashmir, Haryana, Rajasthan, Orissa and presently in Maharashtra - p.s. only for summer holidays.</p>
+              <p>I am very fond of travelling. I love photography as well. </p>
+              <p>And, my mother toungue is Bengali. I know Bengali, English and Hindi.😅</p>
             </div>
           </div>
         </div>

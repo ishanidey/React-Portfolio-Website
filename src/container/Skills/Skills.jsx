@@ -5,392 +5,142 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import './Skills.scss';
 import { images } from '../../constants';
 
-const workTimeline = [
-  { year: '2021 - Present', company: 'Web and Design Society, IIT Bhubaneswar', position: 'Web developer' },
-  { year: '2021 - 2022', company: 'Alma Fiesta, IIT Bhubaneswar', position: 'Web developer' },
-  { year: '2023 - Present', company: 'Medium', position: 'Technical Content Writer' },
-  { year: '2023 - Present', company: 'Quadratyx', position: 'Backend Developer Intern' },
-  { year: '2023 - Present', company: 'IIT Bhubaneswar', position: 'Research Intern' },
+const organizations = [
+  {
+    name: 'IIT Bhubaneswar',
+    image: images.iitbbs,
+    joinYear: 2020,
+    role: 'Full Time BTech ECE student',
+  },
+  {
+    name: 'Web and Design Society IIT Bhubaneswar',
+    image: images.webd,
+    joinYear: 2021,
+    role: 'Web Developer and Member',
+  },
+  {
+    name: 'Alma Fiesta IIT Bhubaneswar',
+    image: images.alma,
+    joinYear: 2021,
+    role: 'Web Developer and Member',
+  },
+  {
+    name: 'Quadratyx',
+    image: images.quadratyx,
+    joinYear: 2023,
+    role: 'Backend Development Intern',
+  },
+  {
+    name: 'IIT Bhubaneswar',
+    image: images.iitbbs,
+    joinYear: 2023,
+    role: 'Research Intern',
+  },
+  {
+    name: 'Medium',
+    image: images.medium,
+    joinYear: 2023,
+    role: 'Technical Content Writer',
+  },
+  // Add more organizations as needed
 ];
 
-const Skills = () => (
-  <>
-    <h2 className="head-text font">Skills & Experiences</h2>
+const skillsList = [
+  { image: images.react, name: 'React' },
+  { image: images.vscode, name: 'VS Code' },
+  { image: images.node, name: 'Node.js' },
+  { image: images.cpp, name: 'C++' },
+  { image: images.javascript, name: 'JavaScript' },
+  { image: images.git, name: 'Git' },
+  { image: images.mongodb, name: 'MongoDB' },
+  { image: images.htmlcss, name: 'HTML and CSS' },
+  { image: images.dsa, name: 'DSA' },
+  { image: images.python, name: 'Python' },
+  { image: images.c, name: 'C' },
+  { image: images.sass, name: 'SASS' },
+  { image: images.ejs, name: 'EJS' },
+  { image: images.heroku, name: 'Heroku' },
+  { image: images.mysql, name: 'MySQL' },
+  { image: images.graphql, name: 'GraphQL' },
+  { image: images.nextjs, name: 'NEXT.js' },
+  { image: images.express, name: 'Express' },
+  { image: images.arduino, name: 'Arduino' },
+  { image: images.matlab, name: 'MATLAB' },
+  { image: images.ts, name: 'TypeScript' },
+];
 
-    <div className="app__skills-container font">
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-          >
-            <img src={images.react} alt="" />
-          </div>
-          <p className="p-text">React</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
+const certificateList = [
+  { image: images.c1, name: 'Soil Moisture Sensing and Transmission' },
+  { image: images.c2, name: 'Crack leaked password database' },
+  { image: images.c3, name: 'Jumpstart organised by Publicis Sapient' },
+  { image: images.c4, name: 'JavaScript Algorithms and Data Structures' },
+  { image: images.geekgoddess, name: 'SemiFinalist @ TechGig Geek Goddess 2022' },
+  { image: images.docker, name: 'Udemy Docker Course' },
+];
 
-          >
-            <img src={images.vscode} alt="" />
-          </div>
-          <p className="p-text">VS Code</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-          >
-            <img src={images.node} alt="" />
-          </div>
-          <p className="p-text">NodeJs</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-          >
-            <img src={images.cpp} alt="" />
-          </div>
-          <p className="p-text">C++</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
+const Skills = () => {
+  const chunkSize = 3;
+  const skillChunks = [];
 
-          >
-            <img src={images.javascript} alt="" />
+  for (let i = 0; i < skillsList.length; i += chunkSize) {
+    const chunk = skillsList.slice(i, i + chunkSize);
+    skillChunks.push(chunk);
+  }
 
-          </div>
-          <p className="p-text">JavaScript</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-          >
-            <img src={images.git} alt="" />
-          </div>
-          <p className="p-text">git</p>
-        </motion.div>
-      </motion.div>
-    </div>
-    <div className="app__skills-container font">
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
+  return (
+    <>
+      <h2 className="head-text font">Skills & Experiences</h2>
 
-          >
-            <img src={images.mongodb} alt="" />
-
+      <div className="app__skills-container font">
+        {skillChunks.map((chunk, index) => (
+          <div className="app__skills-row" key={index}>
+            {chunk.map((skill, skillIndex) => (
+              <motion.div
+                key={skillIndex}
+                whileInView={{ opacity: [0, 1] }}
+                transition={{ duration: 0.5 }}
+                className="app__skills-list"
+              >
+                <motion.div className="app__skills-item app__flex">
+                  <div className="app__flex">
+                    <img src={skill.image} alt="" />
+                  </div>
+                  <p className="p-text">{skill.name}</p>
+                </motion.div>
+              </motion.div>
+            ))}
           </div>
-          <p className="p-text">mongoDB</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-
-          >
-            <img src={images.htmlcss} alt="" />
-          </div>
-          <p className="p-text">HTML and CSS</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-
-          >
-            <img src={images.dsa} alt="" />
-
-          </div>
-          <p className="p-text">DSA</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-
-          >
-            <img src={images.python} alt="" />
-
-          </div>
-          <p className="p-text">Python</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-
-          >
-            <img src={images.c} alt="" />
-
-          </div>
-          <p className="p-text">C</p>
-        </motion.div>
-      </motion.div>
-    </div>
-    <div className="app__skills-container font">
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-          >
-            <img src={images.sass} alt="" />
-          </div>
-          <p className="p-text">SASS</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-
-          >
-            <img src={images.ejs} alt="" />
-          </div>
-          <p className="p-text">EJS</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-          >
-            <img src={images.heroku} alt="" />
-          </div>
-          <p className="p-text">Heroku</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-          >
-            <img src={images.mysql} alt="" />
-          </div>
-          <p className="p-text">MySQL</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-
-          >
-            <img src={images.graphql} alt="" />
-
-          </div>
-          <p className="p-text">GraphQL</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-          >
-            <img src={images.nextjs} alt="" />
-          </div>
-          <p className="p-text">NEXT.JS</p>
-        </motion.div>
-      </motion.div>
-    </div>
-    <div className="app__skills-container font">
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-          >
-            <img src={images.express} alt="" />
-          </div>
-          <p className="p-text">express</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-
-          >
-            <img src={images.arduino} alt="" />
-          </div>
-          <p className="p-text">arduino</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-          >
-            <img src={images.matlab} alt="" />
-          </div>
-          <p className="p-text">matlab</p>
-        </motion.div>
-      </motion.div>
-      <motion.div className="app__skills-list">
-        <motion.div
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="app__skills-item app__flex"
-        >
-          <div
-            className="app__flex"
-          >
-            <img src={images.mysql} alt="" />
-          </div>
-          <p className="p-text">MySQL</p>
-        </motion.div>
-      </motion.div>
-    </div>
-    {/*
-    <div className="app__header app__flex">
-      <motion.div
-        whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-        transition={{ duration: 1 }}
-        className="app__header-info"
-      >
-        <h1 className="heading">ishani</h1>
-        <div className="app__header-badge">
-          <div className="badge-cmp app__flex">
-            <div style={{ marginLeft: 20 }}>
-              <p>Hi there, 👋 my name is</p>
-              <p className="text">Ishani Dey</p>
-              <p>I am a student who has been working with web technologies </p>
-              <p>building both frontend and backend parts, a C++ prorammer </p>
-              <p>currently a fifth sem student at IIT Bhubaneswar </p>
-              <p>and someone who is always in hunt of learning more and more</p>
-            </div>
-          </div>
-        </div>
-      </motion.div>
-
-      <motion.div
-        whileInView={{ opacity: [0, 1] }}
-        transition={{ duration: 1, delayChildren: 1 }}
-        className="app__header-img"
-      >
-        <img src={images.profile} alt="profile_bg" />
-        <motion.img
-          whileInView={{ scale: [0, 1] }}
-          transition={{ duration: 1, ease: 'easeInOut' }}
-          src={images.circle}
-          alt="profile_circle"
-          className="overlay_circle"
-        />
-      </motion.div>
-    </div>
-*/}
-    <div className="app__skills-container font">
-      <div className="timeline">
-        <h1>Work Timeline</h1>
-        <div className="timeline-container">
-          {workTimeline.map((item, index) => (
+        ))}
+      </div>
+      <div className="app__skills-container font">
+        <div className="timeline-container app__certificate-columns">
+          {certificateList.map((item, index) => (
             <div className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`} key={index}>
-              <div className="timeline-year">{item.year}</div>
+              <img className="app__skills-image" src={item.image} alt="" />
               <div className="timeline-content">
-                <h2>{item.position}</h2>
-                <p>{item.company}</p>
+                <h6>{item.name}</h6>
               </div>
             </div>
           ))}
         </div>
       </div>
-    </div>
-  </>
-);
+      <div className="app__skills-container font">
+        <div className="organizations-container">
+          {organizations.map((organization, index) => (
+            <div className="organization" key={index}>
+              <div className="organization-details">
+                <p className="organization-role">{organization.role}</p>
+                <img src={organization.image} alt={organization.name} />
+                <h2 className="organization-name">{organization.name}</h2>
+                <p className="organization-year">Joined in {organization.joinYear}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default AppWrap(
   MotionWrap(Skills, 'app__skills'),

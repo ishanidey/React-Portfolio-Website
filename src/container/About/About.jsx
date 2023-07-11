@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
-import { images } from '../../constants';
 import './About.scss';
 
 const handleExperienceClick = () => {
@@ -23,7 +22,9 @@ const About = () => (
 
       <div className="font" id="about">
         <div className="heading bgimg">
-          <p style={{ marginBottom: '1.5em' }}>My name is Ishani. A student of IIT Bhubaneswar, currently pursuing BTECH in Electronics and Communication department.
+          <p style={{ marginBottom: '1.5em' }}>My name is Ishani Dey, and I am currently pursuing a Bachelor’s degree in Electronics and Communication
+            Engineering from the Indian Institute of Technology (IIT) Bhubaneswar. I am in my fourth year of undergraduate
+            studies (2020-2024).
           </p>
           <p style={{ marginBottom: '1.5em' }}>
             Fixing bugs and solving puzzles thrills me the most{' '}
@@ -44,45 +45,16 @@ const About = () => (
           <a href="https://github.com/ishanidey/React-Portfolio-Website">
             <button type="button" className="button">Go to the repository</button>
           </a>
-          <p style={{ marginBottom: '1.5em', marginTop: '1.5em' }}>A C++ programmer and a wannabe photographer. My target is always to write neat and efficient code.</p>
+          <p>I am proficient in C++ and have also learnt C and Python in my first year. My focus is on developing web
+            applications and solving problems using data structures and algorithms.
+            Recently, I have started writing content on Medium as a technical writer, where I share my knowledge and insights
+            on various topics related to web development and programming.
+          </p>
+          <p style={{ marginBottom: '1.5em', marginTop: '1.5em' }}>My target is always to write neat and efficient code.</p>
           <p style={{ marginBottom: '1.5em' }}>Looking forward to jam with amazing individuals and groups to learn lot more 🙏 </p>
         </div>
       </div>
     </motion.div>
-    <div className="app__about app__flex">
-      <motion.div
-        whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-        transition={{ duration: 1 }}
-        className="app__about-info"
-      >
-        <h1 className="heading">ishani</h1>
-        <div className="app__about-badge">
-          <div className="badge-cmp app__flex">
-            <div style={{ marginLeft: 20 }}>
-              <p>Hi there, 👋 there is a lot more...</p>
-              <p> Explore further to discover more about my projects, skills, and experiences. </p>
-              <p>Ready to dive deeper into my world? </p>
-              <p className="text">Go down</p>
-            </div>
-          </div>
-        </div>
-      </motion.div>
-
-      <motion.div
-        whileInView={{ opacity: [0, 1] }}
-        transition={{ duration: 1, delayChildren: 1 }}
-        className="app__about-img"
-      >
-        <img src={images.profile2} alt="profile_bg" />
-        <motion.img
-          whileInView={{ scale: [0, 1] }}
-          transition={{ duration: 1, ease: 'easeInOut' }}
-          src={images.animation}
-          alt="profile_circle"
-          className="overlay_circle"
-        />
-      </motion.div>
-    </div>
   </>
 );
 
